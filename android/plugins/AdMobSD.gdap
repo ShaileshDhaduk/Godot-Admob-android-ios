@@ -1,0 +1,9 @@
+[config]
+
+name="AdMobSD"
+binary_type="local"
+binary="AdMobSD-release.aar"
+
+[dependencies]
+
+remote=["com.google.android.gms:play-services-ads:19.3.0"]
