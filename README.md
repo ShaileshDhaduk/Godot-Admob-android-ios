@@ -12,6 +12,8 @@ if Engine.has_singleton("AdMobSD"):
   var isReal = true
   admob.init(isReal, instance_id)
   loadInterstitial()
+else:
+  print("AdMobSD was not detedted")
 ```
 
 ```
