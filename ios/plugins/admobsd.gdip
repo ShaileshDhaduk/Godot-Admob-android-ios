@@ -1,0 +1,29 @@
+[config]
+name="AdMobSD"
+binary="admobsd/bin/godotadmob.xcframework"
+
+initialization="register_admobsd_types"
+deinitialization="unregister_admobsd_types"
+
+[dependencies]
+linked=[
+    "admobsd/lib/nanopb.xcframework", 
+    "admobsd/lib/GoogleAppMeasurement.xcframework", 
+    "admobsd/lib/GoogleMobileAds.xcframework",
+    "admobsd/lib/GoogleUtilities.xcframework",
+    "admobsd/lib/UserMessagingPlatform.xcframework",
+    "admobsd/lib/PromisesObjC.xcframework"
+]
+    
+embedded=[]
+system=[]
+
+capabilities=[]
+
+files=[]
+
+linker_flags=["-ObjC"]
+
+[plist]
+NSUserTrackingUsageDescription="This identifier will be used to deliver personalized ads to you."
+GADApplicationIdentifier="ca-app-pub-5197377956403240~1962828520"
