@@ -5,6 +5,7 @@ Add in ios/plugins/lib/ folder.
 
 ```
 var admob
+var adInterstitialId = "ca-app-pub-3940256099942544/4411468910"
 ```
 ```
 if Engine.has_singleton("AdMobSD"):
